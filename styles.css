@@ -36,14 +36,14 @@ html {
     list-style: none;
 }
 
-.nav li:first-child {
+.nav li: first-child {
     margin-left: 10%;
 }
 
 .nav li a {
     color: #ec3030;
     font-family: ObelixPro;
-    
+    font-size: 2.2vw;
 }
 
 .logo {
@@ -73,9 +73,9 @@ h1 {
 }
 
 .left{
-    width: 20%;
+    width: 60%;
     min-height: 20vh;
-    background-color: #8f715f;
+    background-color: #3b3b3b;
     margin: 5%;
 }
 
@@ -83,27 +83,47 @@ h1 {
     width: 20%;
     margin: 5%;
     min-height: 20vh;
-    background-color: #8f715f;
+    background-color: #3b3b3b;
 
 }
 
-.box-left
+.box-left {
+    
+}
 
 .top {
-    width: 100%;
-    height: 100%;
+     width: 60%;
+    /* height: 100%; */
+    margin: -2vh 50% 4vh 15%;
 }
 
 
 .name {
     margin-left: 40%;
-/*    margin-right: 18%;*/
-/*    min-height: 15vh;*/
-    width: 50%;
+    margin-right: 100%;
+    /* min-height: 15vh; */
+    width: 50vw;
+    
 }
 
 
+.left ul {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 
+.left ul li {
+    width: 50%;
+    list-style: none;
+}
+
+.left li img, .left li p {
+    width: 80%;
+    margin: 5vh 10%;
+}
 
 
 
