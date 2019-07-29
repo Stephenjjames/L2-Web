@@ -14,33 +14,35 @@
         <li><a href="info.html">Info</a></li>
     </ul>
     <section>
-        <div class="top">
-            <img class="name" src="Images/name.png">
-        </div>
-        <div class="left">
+        <div class="main">
+            <script>
+                function calculate(){
+                  var data = document.getElementById("sizeData").value 
+                if(data < 42){
+                   document.getElementById("answer").innerHTML = 'your size is small';
+                   }
+                    else{
+                        document.getElementById("answer").innerHTML = 'your size is large';
+                    }
+                    
+                }
+            </script>
+            <h2>Size Calculator</h2>
+            <input type="number" name="size" id="sizeData">
+            <button type="submit"  onclick="calculate()"value="calculate">Submit</button>
+            <p id="answer"></p>
             <ul>
                 <li>
                     <img src="Images/hoodie.1.jpg">
-                    <p>
-                       <h2>This is one of our black hoodies which can be very warm when needed</h2>
-                    </p>
+                    <h1>$50.00</h1>
                 </li>
                 <li>
-                    <p>
-                      <h2>This product is a black belt mainly used for keeping up pants</h2>
-                    </p>
                     <img src="Images/belt.1.jpg">
+                    <h1>$50.00</h1>
                 </li>
-            </ul>
-            
-        </div>
-        <div class="right">
-                  <ul>
                 <li>
                     <img src="Images/Shirt.1.jpg">
-                    <p>
-                       <h2>This is one of our black shirts used as a plain shirt to keep warm and look cool</h2>
-                    </p>
+                    <h1>$50.00</h1>
                 </li>
             </ul>
 <!--
